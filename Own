@@ -1,0 +1,7 @@
+class Solution{
+    int middle(int A, int B, int C){
+        int a[]={A,B,C};
+        Arrays.sort(a);
+        return a[1];
+    }
+}
